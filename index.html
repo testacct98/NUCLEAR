@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NUCLEARVIBES</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="animations.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-name">
+      <img src="trans BG.png" alt="NuclearVibes Logo" class="logo" />
+      <span class="project-name">NUCLEARVIBES</span>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#how">How to Buy</a></li>
+        <li><a href="#tokenomics">Tokenomics</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#harmony">Harmony</a></li>
+        <li><a href="https://x.com/Bonki_Sol" target="_blank">Twitter</a></li>
+        <li><button id="buyBtn">Buy Now</button></li>
+      </ul>
+      <div class="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  <div id="caBox" class="ca-box">CA: 2uhHn2C2CFnqgNFGAFG6pUeK98S5pUp3KpRx6byACMPF</div>
+
+  <section class="hero animate">
+    <img src="Banner.png" alt="Banner" class="banner" />
+    <div class="slogan-container">
+      <h1 class="slogan-main">Vibe Hard. Nuke Never.</h1>
+      <h2 class="slogan-sub">Drop memes, not bombs. Spread peace, not panic.</h2>
+    </div>
+  </section>
+
+  <section id="about" class="animate"><h2>About</h2><p>NUCLEARVIBES is the most peaceful bomb you’ll ever hold. No war, no politics — just vibes. Born in the fallout of global chaos, it’s a reminder that degens choose laughter over sirens, memes over missiles, and peace over panic.</p></section>
+
+  <section id="how" class="animate">
+    <h2>How to Buy</h2>
+    <div class="how-grid">
+      <div class="how-box gold">1. Download a Solana wallet like Phantom or Solflare.</div>
+      <div class="how-box yellow">2. Buy SOL from a CEX like Binance or Coinbase, then send to your wallet.</div>
+      <div class="how-box gray">3. Head to a bot like BonkBot or a swap site like Jupiter.</div>
+      <div class="how-box gold">4. Paste the contract address.</div>
+      <div class="how-box yellow">5. Buy. Vibe. Repeat.</div>
+    </div>
+  </section>
+
+  <section id="tokenomics" class="animate">
+    <h2>Tokenomics</h2>
+    <div class="token-columns">
+      <div class="token-box gold">💣 Total Supply: 100,000,000</div>
+      <div class="token-box yellow">💼 100% sent to LP — community owns it all</div>
+      <div class="token-box gray">🔐 LP locked, contract renounced</div>
+      <div class="token-box gold">🌍 Powered by vibes, driven by chaos</div>
+    </div>
+  </section>
+
+  <section id="roadmap" class="animate">
+    <h2>Roadmap</h2>
+    <div class="roadmap-box">
+      <p>🚀 Launch the Vibe<br>
+      📢 Explode on X<br>
+      🎨 Sticker Packs<br>
+      🤝 Meme Nuclear Council</p>
+    </div>
+  </section>
+
+  <section id="harmony" class="animate">
+    <h2>Harmony</h2>
+    <p>
+      Even in chaos, there’s unity.<br>
+      Even in memes, there’s a message.<br>
+      This coin is for peace-lovers with a touch of degen.<br><br>
+      Because sometimes, the loudest voice for peace...<br>
+      is the one that laughs the hardest.<br><br>
+      We’re not here to divide.<br>
+      We’re here to connect — one meme, one vibe at a time.
+    </p>
+  </section>
+
+  <footer>&copy; 2025 NUCLEARVIBES</footer>
+
+  <script>
+    document.querySelector('.hamburger').onclick = () => {
+      document.querySelector('.nav-links').classList.toggle('show');
+    };
+    document.getElementById('buyBtn').onclick = () => {
+      const box = document.getElementById('caBox');
+      box.style.display = box.style.display === 'block' ? 'none' : 'block';
+    };
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
